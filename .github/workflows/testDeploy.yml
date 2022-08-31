@@ -32,5 +32,5 @@ jobs:
          continue-on-error: true
          run: |
            cd testBot
-           docker build . -t testBot
-           docker run testBot
+           docker build . -t testbot
+           docker run testbot
