@@ -74,7 +74,7 @@ const authConfig = {
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
 
 const uiConfig = {
-    "theme": "united", // switch between themes, default set to slate, select from https://gitlab.com/GoogleDriveIndex/Google-Drive-Index
+    "theme": "darkly", // switch between themes, default set to slate, select from https://gitlab.com/GoogleDriveIndex/Google-Drive-Index
     "version": "2.2.3", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
@@ -82,7 +82,7 @@ const uiConfig = {
     "logo_width": "100px", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.3/images/favicon.ico",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.3/images/bhadoo-cloud-logo-white.svg",
+    "logo_link_name": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/20220902_112636.png",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "80", // Value 80 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "nav_link_1": "Home", // change navigation link name
@@ -93,9 +93,9 @@ const uiConfig = {
     "hide_footer": true, // hides the footer from site entirely.
     "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
     "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
-    "css_a_tag_color": "black", // Color Name or Hex Code eg. #ffffff
-    "css_p_tag_color": "black", // Color Name or Hex Code eg. #ffffff
-    "folder_text_color": "black", // Color Name or Hex Code eg. #ffffff
+    "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
+    "css_p_tag_color": "white", // Color Name or Hex Code eg. #ffffff
+    "folder_text_color": "white", // Color Name or Hex Code eg. #ffffff
     "loading_spinner_class": "text-light", // https://getbootstrap.com/docs/5.0/components/spinners/#colors
     "search_button_class": "btn btn-danger", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
