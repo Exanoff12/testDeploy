@@ -80,9 +80,9 @@ const uiConfig = {
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
-    "favicon": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/20220902_113858.png",
+    "favicon": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/favicon.png",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/20220902_112636.png",
+    "logo_link_name": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/logo.png",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "80", // Value 80 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "nav_link_1": "Home", // change navigation link name
