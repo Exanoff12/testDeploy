@@ -22,7 +22,7 @@ const video_domain_for_dl = video_domains_for_dl[Math.floor(Math.random()*video_
 const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN', 'US', 'PK']
 const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/list-of-autonomous-system-numbers, eg. [16509, 12345]
 const authConfig = {
-    "siteName": "mirrorhorse", // Website name
+    "siteName": "SlamCloud", // Website name
     "client_id": "746239575955-c4d2o1ahg4ts6ahm3a5lh5lp9g8m15h4.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "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", // Client Secret from Google Cloud Console
     "refresh_token": "1//0efgNWJGiVj4ACgYIARAAGA4SNwF-L9Ir5l11G8QUtcUz1cVkLPFNcST2kDmM4G_I19gKtkdlAuwTHYLGBHdYME2YRtLZBgdf-F8", // Authorize token
@@ -37,14 +37,14 @@ const authConfig = {
     "enable_auth0_com": false, // follow guide to add auth0.com to secure index with powerful login based system
     "roots":[
       {
-          "id": "00000five",
-          "name": "Drive One",
+          "id": "0AHqxfW4ermOnUk9PVA",
+          "name": "Drive Zero",
           "protect_file_link": false,
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
-          "id": "root",
-          "name": "Drive Two",
+          "id": "0AHqxfW4ermOnUk9PVA",
+          "name": "Drive One",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
@@ -101,10 +101,10 @@ const uiConfig = {
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-    "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
+    "contact_link": "https://127.0.0.1:5903", // Link to Contact Button on Menu
     "copyright_year": "2022", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "MirrorX", // Name next to copyright
-    "company_link": "https://telegram.com", // link of copyright name
+    "company_name": "SlamCloud", // Name next to copyright
+    "company_link": "https://127.0.0.1:5903", // link of copyright name
     "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
@@ -123,8 +123,8 @@ const uiConfig = {
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
     "plyr_io_version": "3.7.2", // Change plyr.io version in future when needed.
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
-    "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
-    "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
+    "unauthorized_owner_link": "https://127.0.0.1:5903", // Unauthorized Error Page Link to Owner
+    "unauthorized_owner_email": "webmaster@localhost", // Unauthorized Error Page Owner Email
     "search_all_drives": false // gives gdrive links on search and searches all drives on that account, doesn't require adding
 };
 
