@@ -95,7 +95,7 @@ const uiConfig = {
     "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
     "css_a_tag_color": "black", // Color Name or Hex Code eg. #ffffff
     "css_p_tag_color": "black", // Color Name or Hex Code eg. #ffffff
-    "folder_text_color": "white", // Color Name or Hex Code eg. #ffffff
+    "folder_text_color": "black", // Color Name or Hex Code eg. #ffffff
     "loading_spinner_class": "text-light", // https://getbootstrap.com/docs/5.0/components/spinners/#colors
     "search_button_class": "btn btn-danger", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
