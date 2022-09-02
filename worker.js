@@ -93,8 +93,8 @@ const uiConfig = {
     "hide_footer": true, // hides the footer from site entirely.
     "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
     "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
-    "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
-    "css_p_tag_color": "white", // Color Name or Hex Code eg. #ffffff
+    "css_a_tag_color": "black", // Color Name or Hex Code eg. #ffffff
+    "css_p_tag_color": "black", // Color Name or Hex Code eg. #ffffff
     "folder_text_color": "white", // Color Name or Hex Code eg. #ffffff
     "loading_spinner_class": "text-light", // https://getbootstrap.com/docs/5.0/components/spinners/#colors
     "search_button_class": "btn btn-danger", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
