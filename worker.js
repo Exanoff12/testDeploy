@@ -80,7 +80,7 @@ const uiConfig = {
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
-    "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.2.3/images/favicon.ico",
+    "favicon": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/20220902_113858.png",
     // if logo is true then link otherwise just text for name
     "logo_link_name": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/20220902_112636.png",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
