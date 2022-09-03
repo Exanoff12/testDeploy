@@ -79,7 +79,7 @@ const uiConfig = {
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
-    "logo_width": "100px", // only if logo_image is true
+    "logo_width": "150px", // only if logo_image is true
     "favicon": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/favicon.png",
     // if logo is true then link otherwise just text for name
     "logo_link_name": "https://raw.githubusercontent.com/Exanoff12/testDeploy/deploy/logo.png",
