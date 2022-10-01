@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - name: max out deploy space
-        uses: easimon/maximize-build-space@master
-        with:
-          remove-dotnet: 'true'
-          remove-android: 'true'
-          remove-haskell: 'true'
+       - name: max out deploy space
+         uses: easimon/maximize-build-space@master
+         with:
+           remove-dotnet: 'true'
+           remove-android: 'true'
+           remove-haskell: 'true'
 
        - name: checkout
          uses: actions/checkout@main
